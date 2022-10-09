@@ -4,4 +4,4 @@ month = (user_date // 10000) % 100
 year = user_date % 100000
 
 print()
-print(f"The reformatted date: {year}/{month}/{day}")
+print(f"The reformatted date: {year}/{month:02}/{day:02}")
